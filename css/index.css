@@ -58,10 +58,10 @@ footer {
 
 .button-line {margin-bottom: 20px;  }
 .btn {
-    width: 500px;
+    width: 100%;
     border: none;
     color: #FACA9C;
-    padding: 200px 100px;
+    padding: 150px 100px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
