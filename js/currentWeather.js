@@ -1,11 +1,11 @@
 $(document).ready(function() {
 	var urlWeather = "http://api.openweathermap.org/data/2.5/weather?id=1673820&appid=a3f9ee5abdbe138a0d8d102fffdc6ae9";
 	
-    $.get( urlWeather, function( data ) {
+    /*$.get( urlWeather, function( data ) {
         //console.log(data);
  	 	displayWeatherData(data);
 	});
-    
+    */
 })
 
 
