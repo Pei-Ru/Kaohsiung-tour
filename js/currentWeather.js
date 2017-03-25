@@ -1,9 +1,11 @@
 $(document).ready(function() {
-	var url = "https://samples.openweathermap.org/data/2.5/weather?id=1673820&appid=b1b15e88fa797225412429c1c50c122a1";
-	$.get( url, function( data ) {
+	var urlWeather = "http://api.openweathermap.org/data/2.5/weather?id=1673820&appid=a3f9ee5abdbe138a0d8d102fffdc6ae9";
+	
+    $.get( urlWeather, function( data ) {
         //console.log(data);
  	 	displayWeatherData(data);
 	});
+    
 })
 
 
